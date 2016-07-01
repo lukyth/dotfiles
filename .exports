@@ -1,0 +1,23 @@
+export PATH="/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/CrossPack-AVR/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/Lukyth/.composer/vendor/bin:/Applications/MAMP/bin/php/php5.6.2/bin"
+
+export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
+
+export WORKON_HOME=~/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
+export PATH=/usr/local/php5/bin:$PATH
+export PATH=./node_modules/.bin:$PATH
+export NVM_DIR="/Users/Lukyth/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export CXX="clang++ -fcolor-diagnostics"
+export SYSTEMC_HOME=~/lib/systemc-2.3.1
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home"
+PATH=$PATH:$JAVA_HOME/bin
+export ANDROID_HOME="Library/Android/sdk"
+export PATH="/Users/Lukyth/Projects/shpotify:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"

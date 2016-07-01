@@ -1,0 +1,30 @@
+s () {
+    if [ $# -eq 0 ]
+    then
+        /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl .
+    else
+        /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl "$@"
+    fi
+}
+a () {
+    if [ $# -eq 0 ]
+    then
+        atom-beta .
+    else
+        atom-beta "$@"
+    fi
+}
+e () {
+    if [ $# -eq 0 ]
+    then
+        emacs .
+    else
+        emacs "$@"
+    fi
+}
+clonecd () {
+    hub clone --recursive $1 && cd $(basename ${1%.git})
+}
+phps () {
+    php -S localhost:$1
+}
