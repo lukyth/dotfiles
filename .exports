@@ -21,3 +21,5 @@ export ANDROID_HOME="Library/Android/sdk"
 export PATH="/Users/Lukyth/Projects/shpotify:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export GOPATH=/usr/local/opt/go/bin
