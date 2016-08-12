@@ -48,17 +48,7 @@ ZSH_THEME="pure"
 plugins=(git node npm brew osx extract z github httpie zsh-syntax-highlighting)
 
 # User configuration
-
-export PATH="/usr/local/heroku/bin:/Users/Lukyth/google-cloud-sdk/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/CrossPack-AVR/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/Lukyth/.composer/vendor/bin:/Applications/MAMP/bin/php/php5.6.2/bin"
-
-export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
 source $ZSH/oh-my-zsh.sh
-
-# You may need to manually set your language environment
-export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then

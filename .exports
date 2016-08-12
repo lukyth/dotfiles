@@ -1,6 +1,8 @@
-export PATH="/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/CrossPack-AVR/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/Lukyth/.composer/vendor/bin:/Applications/MAMP/bin/php/php5.6.2/bin"
+export PATH="/usr/local/heroku/bin:/Users/Lukyth/google-cloud-sdk/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/CrossPack-AVR/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/Lukyth/.composer/vendor/bin:/Applications/MAMP/bin/php/php5.6.2/bin"
 
 export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
+
+# export MANPATH="/usr/local/man:$MANPATH"
 
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
