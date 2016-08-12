@@ -7,16 +7,26 @@ fi
 source ~/.zplug/init.zsh
 
 zplug "zplug/zplug"
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting", nice:10
 zplug "plugins/git",   from:oh-my-zsh, , nice:10, if:"(( $+commands[git] ))"
+zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
+zplug "plugins/python", from:oh-my-zsh
+zplug "plugins/pip", from:oh-my-zsh
 zplug "plugins/github", from:oh-my-zsh
 zplug "plugins/brew", from:oh-my-zsh
 zplug "plugins/osx", from:oh-my-zsh, nice:10
 zplug "plugins/extract", from:oh-my-zsh
+zplug "plugins/docker", from:oh-my-zsh
+zplug "plugins/gitignore", from:oh-my-zsh, nice:10
 zplug "plugins/node", from:oh-my-zsh
 zplug "plugins/npm", from:oh-my-zsh
 zplug "plugins/httpie", from:oh-my-zsh, nice:10
+zplug "plugins/colored-man-pages", from:oh-my-zsh
+zplug "plugins/tmux", from:oh-my-zsh, nice:10
 zplug "plugins/z", from:oh-my-zsh, nice:10
+zplug "tj/n", hook-build:"make install"
 zplug "sindresorhus/pure"
 
 # Install packages that have not been installed yet

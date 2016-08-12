@@ -6,6 +6,7 @@ s () {
         /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl "$@"
     fi
 }
+
 a () {
     if [ $# -eq 0 ]
     then
@@ -14,6 +15,7 @@ a () {
         atom-beta "$@"
     fi
 }
+
 e () {
     if [ $# -eq 0 ]
     then
@@ -22,15 +24,55 @@ e () {
         emacs "$@"
     fi
 }
+
 clonecd () {
     hub clone --recursive $1 && cd $(basename ${1%.git})
 }
+
+
 phps () {
     php -S localhost:$1
 }
-function f_notifyme {
-  LAST_EXIT_CODE=$?
-  CMD=$(fc -ln -1)
-  # No point in waiting for the command to complete
-  notifyme "$CMD" "$LAST_EXIT_CODE" &
+
+# myIP address
+function myip {
+    ifconfig lo0 | grep 'inet ' | sed -e 's/:/ /' | awk '{print "lo0 : " $2}'
+    ifconfig en0 | grep 'inet ' | sed -e 's/:/ /' | awk '{print "en0 (IPv4): " $2 " " $3 " " $4 " " $5 " " $6}'
+    ifconfig en0 | grep 'inet6 ' | sed -e 's/ / /' | awk '{print "en0 (IPv6): " $2 " " $3 " " $4 " " $5 " " $6}'
+    ifconfig en1 | grep 'inet ' | sed -e 's/:/ /' | awk '{print "en1 (IPv4): " $2 " " $3 " " $4 " " $5 " " $6}'
+    ifconfig en1 | grep 'inet6 ' | sed -e 's/ / /' | awk '{print "en1 (IPv6): " $2 " " $3 " " $4 " " $5 " " $6}'
+}
+
+# Update zplug
+function update_zplug {
+    echo '———> Updating zplug...';
+    zplug update --self
+    echo '———> Updating zplug packages...';
+    zplug update
+}
+
+function update_mac {
+    update_zplug()
+    echo '———> Running brew update...';
+    brew update;
+    echo '———> Running brew upgrade...';
+    brew upgrade --all;
+    echo '———> Running brew cleanup...';
+    brew cleanup;
+    echo '———> Running brew prune...';
+    brew prune;
+    echo '———> Running brew doctor...';
+    brew doctor;
+}
+
+# Create a new SSH key
+function generate_ssh_key {
+    ssh-keygen -t rsa -C "k.sujautra@gmail.com" -f main_key;
+    cat ~/.ssh/id_rsa.pub;
+}
+
+# mkdir & cd
+# https://www.reddit.com/r/commandline/comments/2jl8t8/what_are_your_funniest_or_most_useful_alias_in/clcrp3e
+function mkd {
+    mkdir -p "$1" && cd "$1"
 }
