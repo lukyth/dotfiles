@@ -1,0 +1,44 @@
+{
+	"conditional_file_exclude_patterns":
+	[
+		"npm-debug.log",
+		"*.min.js",
+		"*.o",
+		"*.ncb",
+		"*.a",
+		"*.suo",
+		"*.sublime-workspace",
+		"*.so",
+		"*.sdf",
+		"*.db",
+		".DS_Store",
+		"*.class",
+		"*.lib",
+		"*.exe",
+		"*.pdb",
+		"*.psd",
+		"*.pyo",
+		"*.pyc",
+		"*.obj",
+		"*.idb",
+		"*.dll",
+		"*.dylib"
+	],
+	"conditional_folder_exclude_patterns":
+	[
+		"bower_components",
+		"build",
+		"docs",
+		"node_modules",
+		".tmp",
+		".git",
+		"dist",
+		".sass-cache",
+		".bundle",
+		".rbx",
+		".svn",
+		"target",
+		"vendor"
+	],
+	"enabled": true
+}

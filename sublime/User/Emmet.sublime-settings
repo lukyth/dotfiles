@@ -1,0 +1,9 @@
+{
+    // With this option enabled, all Emmet's CSS snippets
+    // will be available in standard auto-complete popup
+    // "show_css_completions": false,
+
+    // A comma-separated list of scopes where Emmet’s Tab key
+    // abbreviation expander should be disabled
+    "disable_tab_abbreviations_for_scopes": "source.css"
+}
