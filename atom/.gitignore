@@ -1,0 +1,8 @@
+.atom/.apm/
+.atom/.git-history/
+.atom/.node-gyp/
+.atom/blob-store/
+.atom/compile-cache/
+.atom/packages/
+.atom/split-diff/
+.atom/storage/

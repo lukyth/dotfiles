@@ -1,0 +1,135 @@
+[
+  {
+    title: "engineering-quiz"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Code/engineering-quiz"
+      "/Users/Lukyth/Code/engineering-quiz/resources/views/admin"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "kuhiw-webservice"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/kuhiw-webservice"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "thailand-school-collector"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/thailand-school-collector"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "lukyth.github.io"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/lukyth.github.io"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "ChariGO"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/ChariGO/web/ChariGO"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "pocari-sweat"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/pocari-sweat"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "jnto-board-game"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/jnto-board-game"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "caprine"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/caprine"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "js-tips-slack-bot"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/js-tips-slack-bot"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "browser-laptop"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/browser-laptop"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "You-Dont-Know-JS"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/You-Dont-Know-JS"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+  {
+    title: "Simplesat"
+    group: ""
+    paths: [
+      "/Users/Lukyth/Projects/simplesat"
+    ]
+    icon: "icon-chevron-right"
+    settings: {}
+    devMode: false
+    template: null
+  }
+]
