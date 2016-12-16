@@ -19,6 +19,10 @@ brew install the_silver_searcher
 brew install wget
 brew install doxygen
 
+pip install --upgrade pip setuptools
+pip3 install --upgrade pip setuptools wheel
+git lfs install
+
 brew tap caskroom/versions
 brew tap caskroom/fonts
 
