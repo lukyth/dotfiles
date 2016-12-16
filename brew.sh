@@ -5,6 +5,7 @@ brew upgrade
 
 brew install node
 brew install yarn
+brew install mas
 
 brew tap caskroom/versions
 brew tap caskroom/fonts
