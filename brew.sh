@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+git config --global color.ui true
+git config --global user.name "Kanitkorn S."
+git config --global user.email "k.sujautra@gmail.com"
+
 brew update
 brew upgrade
 
