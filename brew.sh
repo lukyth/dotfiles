@@ -6,6 +6,18 @@ brew upgrade
 brew install node
 brew install yarn
 brew install mas
+brew install git
+brew install git-lfs
+brew install vim
+brew install htop
+brew install python
+brew install python3
+brew install tmux
+brew install tig
+brew install zsh
+brew install the_silver_searcher
+brew install wget
+brew install doxygen
 
 brew tap caskroom/versions
 brew tap caskroom/fonts
