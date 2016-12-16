@@ -15,8 +15,8 @@ alias zshrc="source ~/.zshrc"
 alias chr="open -a Google\ Chrome\ Canary"
 alias ht="cd /Applications/MAMP/htdocs"
 alias git=hub
-alias dl="cd /Users/Lukyth/Downloads"
-alias dt="cd /Users/Lukyth/Desktop"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
 
 # Update installed Ruby gems, Homebrew, npm, and their installed packages
 alias brew_update="brew -v update; brew upgrade --force-bottle --cleanup; brew cleanup; brew cask cleanup; brew prune; brew doctor; npm-check -g -u"
