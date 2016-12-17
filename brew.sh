@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-git config --global color.ui true
-git config --global user.name "Kanitkorn S."
-git config --global user.email "k.sujautra@gmail.com"
-
 brew update
 brew upgrade
 
@@ -24,10 +20,6 @@ brew install wget
 brew install doxygen
 brew install z
 brew install zsh-syntax-highlighting
-
-pip install --upgrade pip setuptools
-pip3 install --upgrade pip setuptools wheel
-git lfs install
 
 brew tap caskroom/versions
 brew tap caskroom/fonts
