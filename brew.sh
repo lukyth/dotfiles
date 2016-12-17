@@ -22,6 +22,8 @@ brew install zsh
 brew install the_silver_searcher
 brew install wget
 brew install doxygen
+brew install z
+brew install zsh-syntax-highlighting
 
 pip install --upgrade pip setuptools
 pip3 install --upgrade pip setuptools wheel
