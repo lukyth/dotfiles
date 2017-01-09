@@ -34,6 +34,7 @@ brew cask install hyper
 brew cask install sublime-text-dev
 brew cask install atom-beta
 brew cask install visual-studio-code-insiders
+brew cask install sourcetree
 brew cask install docker
 brew cask install postman
 brew cask install sketch-beta
@@ -44,10 +45,14 @@ brew cask install alfred
 brew cask install istat-menus
 brew cask install hyperswitch
 brew cask install karabiner-elements
+brew cask install duet
 brew cask install spotify
 brew cask install spotify-notifications
+brew cask install iina
 brew cask install mplayerx
 brew cask install vlc
+brew cask install webtorrent
 brew cask install steam
+brew cask install battle-net
 
 brew cleanup
