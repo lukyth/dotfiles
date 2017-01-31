@@ -40,18 +40,18 @@ brew cask install postman
 brew cask install sketch-beta
 brew cask install zeplin
 brew cask install handbrake
-brew cask install font-fira-code
+brew cask install font-fira-code font-open-sans font-roboto font-lato
 brew cask install alfred
 brew cask install istat-menus
 brew cask install hyperswitch
 brew cask install karabiner-elements
 brew cask install duet
+brew cask install java
+brew cask install android-file-transfer
 brew cask install spotify
 brew cask install spotify-notifications
 brew cask install iina
-brew cask install mplayerx
-brew cask install vlc
-brew cask install webtorrent
+brew cask install utorrent
 brew cask install steam
 brew cask install battle-net
 
