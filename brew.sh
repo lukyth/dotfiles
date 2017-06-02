@@ -20,6 +20,9 @@ brew install wget
 brew install doxygen
 brew install z
 brew install zsh-syntax-highlighting
+brew install mongodb
+brew install mysql
+brew install httpie
 
 brew tap caskroom/versions
 brew tap caskroom/fonts
@@ -34,15 +37,21 @@ brew cask install hyper
 brew cask install sublime-text-dev
 brew cask install atom-beta
 brew cask install visual-studio-code-insiders
+brew cask install android-studio
 brew cask install sourcetree
 brew cask install docker
 brew cask install postman
+brew cask install transmit
+brew cask install robomongo
+brew cask install sequel-pro
 brew cask install sketch-beta
 brew cask install zeplin
 brew cask install handbrake
+brew cask install tunnelblick
 brew cask install font-fira-code font-open-sans font-roboto font-lato
 brew cask install alfred
 brew cask install istat-menus
+brew cask install vanilla
 brew cask install hyperswitch
 brew cask install karabiner-elements
 brew cask install duet
