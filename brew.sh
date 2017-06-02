@@ -58,5 +58,6 @@ brew cask install iina
 brew cask install utorrent
 brew cask install steam
 brew cask install battle-net
+brew cask install caprine
 
 brew cleanup
