@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "all",
+    "editor.renderIndentGuides": true,
+    "vsicons.projectDetection.autoReload": true,
+    "vsicons.presets.angular": false,
+    "workbench.iconTheme": "vs-seti",
+    "workbench.colorTheme": "One Dark Pro"
+  }
