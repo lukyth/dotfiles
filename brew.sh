@@ -33,9 +33,7 @@ brew cask install google-chrome-canary
 brew cask install firefox
 brew cask install safari-technology-preview
 brew cask install iterm2-nightly
-brew cask install hyper
 brew cask install sublime-text-dev
-brew cask install atom-beta
 brew cask install visual-studio-code-insiders
 brew cask install android-studio
 brew cask install sourcetree
@@ -54,11 +52,8 @@ brew cask install istat-menus
 brew cask install vanilla
 brew cask install hyperswitch
 brew cask install karabiner-elements
-brew cask install duet
 brew cask install java
 brew cask install android-file-transfer
-brew cask install spotify
-brew cask install spotify-notifications
 brew cask install iina
 brew cask install utorrent
 brew cask install steam
