@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AceJump",
 		"Advanced CSV",
 		"ApacheConf.tmLanguage",
@@ -18,14 +19,14 @@
 		"BracketHighlighter",
 		"Color Highlighter",
 		"ColorHelper",
-		"Console Wrap for js",
+		"Console Wrap",
 		"CSS3",
 		"Dockerfile Syntax Highlighting",
 		"Dotfiles Syntax Highlighting",
 		"EditorConfig",
 		"Emmet",
 		"ESLint-Formatter",
-		"GitGutter-Edge",
+		"GitGutter",
 		"Gitignore",
 		"GitSavvy",
 		"HTML5",
@@ -44,6 +45,7 @@
 		"requirementstxt",
 		"SideBarEnhancements",
 		"StandardFormat",
+		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flake8",
@@ -53,7 +55,6 @@
 		"Syntax Highlighting for PostCSS",
 		"Syntax Highlighting for Sass",
 		"ToggleExclude",
-		"TOML",
-		"zz File Icons"
+		"TOML"
 	]
 }

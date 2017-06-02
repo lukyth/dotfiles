@@ -31,19 +31,14 @@
       "about"
       "metrics"
       "react"
-      "activate-power-mode"
       "project-viewer"
       "atom-typescript"
-      "javascript-snippets"
-      "snippets-jade"
-      "linter-pep8"
       "whitespace"
       "tree-view"
       "standard-formatter"
       "linter"
-      "linter-flake8"
     ]
-    useCustomTitleBar: true
+    titleBar: "hidden"
   docblockr: {}
   editor:
     fontFamily: "Fira Code"
