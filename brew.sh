@@ -55,9 +55,11 @@ brew cask install karabiner-elements
 brew cask install java
 brew cask install android-file-transfer
 brew cask install iina
-brew cask install utorrent
+brew cask install bittorrent
 brew cask install steam
 brew cask install battle-net
 brew cask install caprine
+brew cask install keka
+brew cask install spotify
 
 brew cleanup

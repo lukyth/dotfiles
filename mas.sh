@@ -10,3 +10,5 @@ mas install 409183694 # Keynote
 mas install 409201541 # Pages
 mas install 409203825 # Numbers
 mas install 1153157709 # Speedtest
+mas install 497799835 # Xcode
+mas install 1263070803 # Lungo
