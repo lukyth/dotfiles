@@ -1,7 +1,14 @@
+EditorConfig.EditorConfig
 PeterJausovec.vscode-docker
 blanu.vscode-styled-jsx
 chenxsan.vscode-standardjs
+christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
+donjayamanne.githistory
+eg2.tslint
+formulahendry.auto-close-tag
+jpoissonnier.vscode-styled-components
+lukehoban.Go
 mikestead.dotenv
 mrmlnc.vscode-apache
 ms-vscode.atom-keybindings
@@ -9,7 +16,10 @@ redhat.java
 robertohuertasm.vscode-icons
 ryu1kn.annotator
 sysoev.language-stylus
+thisismanta.code-quicken
+thisismanta.react-es6-class-migration
 thisismanta.stylus-supremacy
+thisismanta.third-eye
 vscodevim.vim
 vtfn.stylint
 zhuangtongfa.Material-theme

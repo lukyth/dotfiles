@@ -12,12 +12,12 @@ brew install vim
 brew install htop
 brew install python
 brew install python3
+brew install go
 brew install tmux
 brew install tig
 brew install zsh
 brew install the_silver_searcher
 brew install wget
-brew install doxygen
 brew install z
 brew install zsh-syntax-highlighting
 brew install mongodb
@@ -52,14 +52,14 @@ brew cask install istat-menus
 brew cask install vanilla
 brew cask install hyperswitch
 brew cask install karabiner-elements
+brew cask install keka
 brew cask install java
 brew cask install android-file-transfer
 brew cask install iina
+brew cask install spotify
 brew cask install bittorrent
 brew cask install steam
 brew cask install battle-net
 brew cask install caprine
-brew cask install keka
-brew cask install spotify
 
 brew cleanup
