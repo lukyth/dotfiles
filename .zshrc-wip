@@ -67,6 +67,9 @@ export MANPATH="/usr/local/man:$MANPATH"
 export ANDROID_HOME="/Users/kanitkorn/Library/Android/sdk"
 export JAVA_HOME=`/usr/libexec/java_home`
 export PATH=${JAVA_HOME}/bin:$PATH
+export GOPATH=$HOME/Code/go
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export PATH=$PATH:$GOPATH/bin
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
