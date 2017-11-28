@@ -36,9 +36,9 @@ brew cask install iterm2-nightly
 brew cask install sublime-text-dev
 brew cask install visual-studio-code-insiders
 brew cask install android-studio
-brew cask install sourcetree
+brew cask install tower-beta
 brew cask install docker
-brew cask install postman
+brew cask install paw
 brew cask install transmit
 brew cask install robomongo
 brew cask install sequel-pro
