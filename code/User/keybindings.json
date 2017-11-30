@@ -1,3 +1,8 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+    {
+        "key": "ctrl+shift+up",
+        "command": "-cursorColumnSelectUp",
+        "when": "editorTextFocus"
+    }
 ]
