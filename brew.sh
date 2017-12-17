@@ -42,7 +42,7 @@ brew cask install paw
 brew cask install gpg-suite-beta
 brew cask install google-photos-backup-and-sync
 brew cask install transmit
-brew cask install robomongo
+brew cask install mongodb-compass-beta
 brew cask install sequel-pro
 brew cask install imageoptim
 brew cask install sketch-beta
