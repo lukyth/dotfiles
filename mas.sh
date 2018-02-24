@@ -12,3 +12,5 @@ mas install 409203825 # Numbers
 mas install 1153157709 # Speedtest
 mas install 497799835 # Xcode
 mas install 1263070803 # Lungo
+mas install 1091189122 # Bear
+mas install 1351639930 # Gifski
