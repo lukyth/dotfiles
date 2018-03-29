@@ -23,6 +23,9 @@ brew install zsh-syntax-highlighting
 brew install mongodb
 brew install mysql
 brew install httpie
+brew install ripgrep
+brew install lastpass-cli --with-pinentry --with-doc
+brew install git-standup
 
 brew tap caskroom/versions
 brew tap caskroom/fonts
@@ -52,6 +55,7 @@ brew cask install tunnelblick
 brew cask install font-fira-code font-open-sans font-roboto font-lato
 brew cask install alfred
 brew cask install istat-menus
+brew cask install rescuetime
 brew cask install vanilla
 brew cask install hyperswitch
 brew cask install karabiner-elements
@@ -64,5 +68,6 @@ brew cask install bittorrent
 brew cask install steam
 brew cask install battle-net
 brew cask install caprine
+brew cask install kap-beta
 
 brew cleanup
