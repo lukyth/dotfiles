@@ -26,6 +26,8 @@ brew install httpie
 brew install ripgrep
 brew install lastpass-cli --with-pinentry --with-doc
 brew install git-standup
+brew install fzf
+brew install tldr
 
 brew tap caskroom/versions
 brew tap caskroom/fonts
@@ -36,11 +38,13 @@ brew cask install google-chrome-canary
 brew cask install firefox
 brew cask install safari-technology-preview
 brew cask install iterm2-nightly
-brew cask install sublime-text-dev
+brew cask install sublime-text
 brew cask install visual-studio-code-insiders
 brew cask install android-studio
 brew cask install tower-beta
 brew cask install docker
+brew cask install minikube
+brew cask install virtualbox
 brew cask install paw
 brew cask install gpg-suite-beta
 brew cask install google-photos-backup-and-sync
