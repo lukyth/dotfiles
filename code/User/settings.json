@@ -10,8 +10,8 @@
     "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.showTabs": false,
     "window.zoomLevel": 0,
-    "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "gitlens.codeLens.enabled": false,
@@ -22,7 +22,19 @@
       "suppressGitVersionWarning": false,
       "suppressLineUncommittedWarning": false,
       "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true,
       "suppressUpdateNotice": false,
       "suppressWelcomeNotice": true
-    }
+    },
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.lineHeight": 24,
+    // Controls if file decorations should use badges.
+    "explorer.decorations.badges": false,
+    "gitlens.keymap": "chorded",
+    // Automatically start Jest for this project
+    "jest.autoEnable": false,
+    "workbench.startupEditor": "welcomePage",
+    "jest.enableCodeLens": false,
+    "jest.enableInlineErrorMessages": false,
   }
