@@ -32,21 +32,19 @@ brew install tldr
 brew tap caskroom/versions
 brew tap caskroom/fonts
 
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo # https://github.com/sindresorhus/quick-look-plugins
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package quicklookase qlvideo # https://github.com/sindresorhus/quick-look-plugins
+brew cask install betterzipql
 brew cask install google-chrome
-brew cask install google-chrome-canary
 brew cask install firefox
-brew cask install safari-technology-preview
 brew cask install iterm2-nightly
 brew cask install sublime-text
 brew cask install visual-studio-code-insiders
-brew cask install android-studio
 brew cask install tower-beta
 brew cask install docker
 brew cask install minikube
 brew cask install virtualbox
 brew cask install paw
-brew cask install gpg-suite-beta
+brew cask install gpg-suite
 brew cask install google-photos-backup-and-sync
 brew cask install transmit
 brew cask install mongodb-compass-beta
