@@ -1,6 +1,7 @@
 [user]
 	name = Kanitkorn S.
 	email = k.sujautra@gmail.com
+	signingkey = 61D396814AF537CA
 [color]
 	ui = true
 [filter "lfs"]
@@ -14,7 +15,11 @@
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/SourceTree-Beta.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
 	template = /Users/kanitkorn/.stCommitMsg
+	gpgsign = true
+
+[gpg]
+	program = /usr/local/bin/gpg
