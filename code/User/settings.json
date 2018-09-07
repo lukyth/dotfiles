@@ -13,7 +13,6 @@
     "workbench.editor.showTabs": false,
     "window.zoomLevel": 0,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.advanced.messages": {
       "suppressCommitHasNoPreviousCommitWarning": false,
@@ -37,4 +36,6 @@
     "workbench.startupEditor": "welcomePage",
     "jest.enableCodeLens": false,
     "jest.enableInlineErrorMessages": false,
+    "gitlens.historyExplorer.enabled": true,
+    "breadcrumbs.enabled": true,
   }
