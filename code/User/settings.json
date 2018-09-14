@@ -38,4 +38,11 @@
     "jest.enableInlineErrorMessages": false,
     "gitlens.historyExplorer.enabled": true,
     "breadcrumbs.enabled": true,
+    "github.hosts": [
+      {
+        "host": "https://github.com",
+        "username": "oauth",
+        "token": "system"
+      }
+    ],
   }
