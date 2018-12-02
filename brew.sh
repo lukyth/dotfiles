@@ -28,6 +28,7 @@ brew install lastpass-cli --with-pinentry --with-doc
 brew install git-standup
 brew install fzf
 brew install tldr
+brew install watchman
 
 brew tap caskroom/versions
 brew tap caskroom/fonts
@@ -46,7 +47,6 @@ brew cask install mongodb-compass-beta
 brew cask install sequel-pro
 brew cask install imageoptim
 brew cask install zeplin
-brew cask install slack-beta 
 brew cask install handbrake
 brew cask install tunnelblick
 brew cask install font-fira-code font-open-sans font-roboto font-lato
@@ -61,5 +61,6 @@ brew cask install iina
 brew cask install spotify
 brew cask install kap-beta
 brew cask install bittorrent
+brew cask install react-native-debugger
 
 brew cleanup
