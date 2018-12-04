@@ -1,41 +1,13 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 14,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.renderWhitespace": "all",
-    "editor.renderIndentGuides": true,
-    "vsicons.projectDetection.autoReload": true,
-    "vsicons.presets.angular": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.editor.showTabs": false,
-    "window.zoomLevel": 0,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "gitlens.codeLens.enabled": false,
-    "gitlens.advanced.messages": {
-      "suppressCommitHasNoPreviousCommitWarning": false,
-      "suppressCommitNotFoundWarning": false,
-      "suppressFileNotUnderSourceControlWarning": false,
-      "suppressGitVersionWarning": false,
-      "suppressLineUncommittedWarning": false,
-      "suppressNoRepositoryWarning": false,
-      "suppressResultsExplorerNotice": false,
-      "suppressShowKeyBindingsNotice": true,
-      "suppressUpdateNotice": false,
-      "suppressWelcomeNotice": true
-    },
-    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
-    "editor.lineHeight": 24,
-    // Controls if file decorations should use badges.
-    "explorer.decorations.badges": false,
-    "gitlens.keymap": "chorded",
-    // Automatically start Jest for this project
-    "jest.autoEnable": false,
-    "workbench.startupEditor": "welcomePage",
-    "jest.enableCodeLens": false,
-    "jest.enableInlineErrorMessages": false,
-    "gitlens.historyExplorer.enabled": true,
-    "breadcrumbs.enabled": true,
-  }
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.fontLigatures": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.mode.active": "zen",
+  "workbench.editor.showTabs": false,
+  "breadcrumbs.enabled": true
+}

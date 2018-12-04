@@ -3,8 +3,7 @@
 brew update
 brew upgrade
 
-brew install node
-brew install yarn
+brew install yarn --without-node
 brew install mas
 brew install git
 brew install git-lfs
@@ -47,6 +46,9 @@ brew cask install mongodb-compass-beta
 brew cask install sequel-pro
 brew cask install imageoptim
 brew cask install zeplin
+brew cask install paste
+brew cask install slack
+brew cask install homebrew/cask-drivers/logitech-options
 brew cask install handbrake
 brew cask install tunnelblick
 brew cask install font-fira-code font-open-sans font-roboto font-lato
