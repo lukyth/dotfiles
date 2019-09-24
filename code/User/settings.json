@@ -1,13 +1,8 @@
 {
   "workbench.colorTheme": "One Dark Pro",
-  "editor.fontSize": 14,
   "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-  "editor.tabSize": 2,
-  "editor.renderWhitespace": "all",
   "editor.fontLigatures": true,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.mode.active": "zen",
-  "workbench.editor.showTabs": false,
-  "breadcrumbs.enabled": true
+  "editor.fontSize": 14,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.showTabs": false
 }
