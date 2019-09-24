@@ -1,79 +1,114 @@
-# Check if zplug is installed
-if [[ ! -d ~/.zplug ]]; then
-    git clone https://github.com/zplug/zplug ~/.zplug
-    source ~/.zplug/init.zsh && zplug update --self
-fi
+# history
+SAVEHIST=100000
 
-source ~/.zplug/init.zsh
+# vim bindings
+bindkey -v
 
-zplug "zplug/zplug"
-zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-history-substring-search"
-zplug "zsh-users/zsh-syntax-highlighting", nice:10
-zplug "plugins/git",   from:oh-my-zsh, , nice:10, if:"(( $+commands[git] ))"
-zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
-zplug "plugins/python", from:oh-my-zsh
-zplug "plugins/pip", from:oh-my-zsh
-zplug "plugins/github", from:oh-my-zsh
-zplug "plugins/brew", from:oh-my-zsh
-zplug "plugins/osx", from:oh-my-zsh, nice:10
-zplug "plugins/extract", from:oh-my-zsh
-zplug "plugins/docker", from:oh-my-zsh
-zplug "plugins/gitignore", from:oh-my-zsh, nice:10
-zplug "plugins/node", from:oh-my-zsh
-zplug "plugins/npm", from:oh-my-zsh
-zplug "plugins/httpie", from:oh-my-zsh, nice:10
-zplug "plugins/colored-man-pages", from:oh-my-zsh
-zplug "plugins/tmux", from:oh-my-zsh, nice:10
-zplug "plugins/z", from:oh-my-zsh, nice:10
-zplug "tj/n", hook-build:"make install"
-zplug "sindresorhus/pure"
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Install packages that have not been installed yet
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    else
-        echo
-    fi
-fi
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/kanitkorn/.oh-my-zsh
 
-# Then, source packages and add commands to $PATH
-zplug load
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME=""
 
-# ZSH hilighting configuration
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets root)
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
 
-PURE_GIT_UNTRACKED_DIRTY=0
-PURE_CMD_MAX_EXEC_TIME=10
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
 
-source ~/dotfiles/.aliases
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
 
-source ~/dotfiles/.functions
-source ~/dotfiles/.exports
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
 
-# Skip forward/back a word with opt-arrow
-bindkey '[C' forward-word
-bindkey '[D' backward-word
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
 
-# Skip to start/end of line with cmd-arrow
-bindkey '[E' beginning-of-line
-bindkey '[F' end-of-line
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
 
-# Delete word with opt-backspace/opt-delete
-bindkey '[G' backward-kill-word
-bindkey '[H' kill-word
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
 
-# Delete line with cmd-backspace
-bindkey '[I' kill-whole-line
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
 
-# added by travis gem
-[ -f /Users/Lukyth/.travis/travis.sh ] && source /Users/Lukyth/.travis/travis.sh
-eval $(thefuck --alias)
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git brew zsh-nvm)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+export MANPATH="/usr/local/man:$MANPATH"
+export ANDROID_HOME="/Users/kanitkorn/Library/Android/sdk"
+export JAVA_HOME=`/usr/libexec/java_home`
+export PATH=${JAVA_HOME}/bin:$PATH
+export GOPATH=$HOME/Code/go
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export PATH=$PATH:$GOPATH/bin
+
+# You may need to manually set your language environment
+export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+export EDITOR='vim'
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+unalias gk gke
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+. /usr/local/etc/profile.d/z.sh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Initialize the prompt system (if not so already) and choose pure:
+autoload -U promptinit; promptinit
+prompt pure
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
-
-source $( echo $(which vv)-completions)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
