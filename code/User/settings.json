@@ -4,5 +4,48 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "workbench.editor.enablePreview": false,
-  "workbench.editor.showTabs": false
+  "workbench.editor.showTabs": false,
+  "window.zoomLevel": 0,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.codeLens.enabled": false,
+  "sonarlint.rules": {
+    "typescript:S1192": {
+      "level": "on"
+    },
+    "typescript:S1301": {
+      "level": "on"
+    },
+    "typescript:S2933": {
+      "level": "on"
+    },
+    "typescript:S4144": {
+      "level": "on"
+    },
+    "typescript:S4328": {
+      "level": "on"
+    },
+    "typescript:S4622": {
+      "level": "on"
+    },
+    "typescript:S4624": {
+      "level": "on"
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
