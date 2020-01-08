@@ -6,12 +6,13 @@ git lfs install
 
 npm install -g pure-prompt
 
-mkdir ~/Desktop/Screenshots
-defaults write com.apple.screencapture location ~/Desktop/Screenshots
+mkdir ~/Screenshots
+defaults write com.apple.screencapture location ~/Screenshots
 killall SystemUIServer
 
 rm ~/.gitconfig
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.gitignore ~/.gitignore
-ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
-touch /Users/kanitkorn/.stCommitMsg
+ln -s ~/Code/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/Code/dotfiles/.gitignore ~/.gitignore
+ln -s ~/Code/dotfiles/.gitignore_global ~/.gitignore_global
+touch ~/.stCommitMsg
+touch ~/.z
