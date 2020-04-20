@@ -16,6 +16,7 @@ brew tap homebrew/cask-drivers
 
 brew cask install google-chrome
 brew cask install firefox
+brew cask install microsoft-edge
 brew cask install iterm2
 brew cask install sublime-text
 brew cask install visual-studio-code
@@ -41,5 +42,9 @@ brew cask install java
 brew cask install iina
 brew cask install spotify
 brew cask install kap
+brew cask install postico
+brew cask install notion
+brew cask install 1password
+brew cask install qbittorrent
 
 brew cleanup
