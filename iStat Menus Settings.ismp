@@ -161,7 +161,6 @@
 		<integer>0</integer>
 		<key>StatusItems-Order</key>
 		<array>
-			<integer>7</integer>
 			<integer>1</integer>
 			<integer>2</integer>
 			<integer>3</integer>
@@ -249,7 +248,7 @@
 		<key>Zarya-TLE</key>
 		<dict>
 			<key>time</key>
-			<real>1589691488.539865</real>
+			<real>1594369275.7952099</real>
 			<key>tle</key>
 			<string>ISS (ZARYA)             
 1 25544U 98067A   19024.69130787  .00000289  00000-0  11946-4 0  9991
