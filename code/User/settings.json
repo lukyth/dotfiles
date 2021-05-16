@@ -54,5 +54,11 @@
   "workbench.colorTheme": "One Dark Pro",
   "[ruby]": {
     "editor.defaultFormatter": "jnbt.vscode-rufo"
+  },
+  "vscode-edge-devtools.enableNetwork": true,
+  "vscode-edge-devtools.headless": true,
+  "sync.gist": "e34cec7404b64b5063b3e867bcfb6d93",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
